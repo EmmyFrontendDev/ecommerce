@@ -1,0 +1,90 @@
+/* Large images */
+.product-details-images .lg-image img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+/* Thumbnails */
+.product-details-thumbs .sm-image img {
+  width: 80px;     /* thumbnail width */
+  height: 80px;    /* thumbnail height */
+  object-fit: cover;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+}
+/* Center the sm-image thumbnails */
+.product-details-thumbs {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.product-details-thumbs .sm-image {
+  margin: 0 5px;
+}
+.slick-prev, 
+.slick-next {
+  background: #4169e1;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.slick-prev:hover, 
+.slick-next:hover {
+  background: black;
+}
+
+/* Adjust positions */
+.slider-navigation-1 .slick-prev { left: -25px; }
+.slider-navigation-1 .slick-next { right: -25px; }
+
+.slider-thumbs-1 .slick-prev { left: -25px; top: 35%; }
+.slider-thumbs-1 .slick-next { right: -25px; top: 35%; }
+
+
+/* Hover / active effect */
+.product-details-thumbs .sm-image img:hover {
+  border-color: #000;
+  transform: scale(1.05);
+}
+
+.hb-menu nav > ul > li.blogg > a::after{
+	display: none !important;
+
+ }
+ a::after{
+  display: none !important;
+ }
+ .dropdown-holder a::after{
+  display: none !important;
+ }
+ .hb-menu nav > ul > li.homme > a::after{
+	display: none !important;
+
+ }
+ .hb-menu nav > ul > li.shopp > a::after{
+	display: none !important;
+
+ }
+ .hb-menu nav > ul > li.megamenu-static-holder > a::after{
+	display: none !important;
+
+ }

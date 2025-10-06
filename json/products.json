@@ -1,0 +1,358 @@
+[
+  {
+    "id": 1,
+    "name": "Razer Headphone",
+    "price": "200,000.00",
+    
+    "images": [
+      "images/emma/headphone/FR earphone.jpg",
+      "images/emma/headphone/razer-white.jpg",
+      "images/emma/headphone/Razer’s aluminium Green 2.jpg",
+      "images/emma/razer-black.jpg"
+    ],
+    "description": "High-quality wireless headphones with deep bass and noise cancellation.",
+    "category": "Headphones",
+    "url": "single-product.html?id=1"
+    
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy A53",
+    "price": "250,000.00",
+    "images": [
+      "images/emma/phone/phone1.jpg",
+      "images/emma/laptop/laptop1.jpg",
+      "images/emma/laptop/laptop2.jpg"
+    ], 
+   
+    "description": "Powerful gaming laptop with RTX graphics, 16GB RAM, and SSD storage.",
+    "category": "Laptops",
+    "url": "single-product.html?id=2"
+
+    
+
+  },
+  {
+    "id": 3,
+    "name": "Razer Headphone Green",
+    "price": "94,923.26",
+    "images": [
+      "images/emma/headphone/Razer’s aluminium Green 2.jpg",
+      "images/emma/laptop/laptop2.jpg"
+    ],
+    "description": "Razer’s aluminium Green.",
+    "category": "Headphones",
+    "url": "single-product.html?id=3"
+  },
+  {
+    "id": 4,
+    "name": "Samsung Galaxy Watch 4",
+    "price": "71,500.80",
+    "images": [
+      "images/emma/watch/Grey Flower Samsung Galaxy Watch 4.jpg",
+      "images/emma/laptop/laptop2.jpg"
+    ],
+    "description": "Grey Flower Samsung Galaxy Watch 4  magnetisch bandjen.",
+    "category": "Watches",
+    "url": "single-product.html?id=4"
+  },
+  {
+    "id": 5,
+    "name": "Xiaomi Power Bank",
+    "price": "56,000.80",
+    "images": [
+      "images/emma/powerbank/Power Bank Xiaomi 10000 mAh.jpg" ,
+      "images/emma/laptop/laptop2.jpg"
+    ],
+    "description": "Razer Kraken Gaming Headset: Lightweight Aluminum Frame, Retractable Noise Isolating Microphone, For PC, PS4, PS5, Switch, Xbox One, Xbox Series X & S,Mobile,3.5mm Audio Jack– Green-RZ04-02830200-R3M1.",
+    "category": "Headphones",
+    "url": "single-product.html?id=5"
+  },
+  {
+    "id": 6,
+    "name": "Action Camera",
+    "price": "71,000.80",
+    "images": [
+      "images/emma/home appliances/Action camera.jpeg",
+      "images/emma/laptop/laptop2.jpg"
+    ],
+    "description": "Action Camera 4K 60FPS IPS Screen 140° Wide-Angle 30M Waterproof Anti-Shake Sports Camera WiFi Sports Camera DV For Outdoor.",
+    "category": "Camera",
+    "url": "single-product.html?id=6"
+  },
+  {
+    "id": 7,
+    "name": "Amazon echo dot",
+    "price": "₦145,000.80",
+    "images": [
+      "images/emma/wireless speakers/amazon echo dot.jpg",
+      "images/emma/laptop/laptop2.jpg"
+    ],
+    "description": "Amazon Echo Dot (newest model), Vibrant sounding Alexa speaker, Great for bedrooms, dining rooms and offices, Charcoal.",
+    "category": "wireless speakers",
+    "url": "single-product.html?id=7"
+  },
+  {
+    "id": 8,
+    "name": "Apple air tag",
+    "price": "₦145,000.80",
+    "images": [
+      "images/emma/Apple air tag.jpg",
+      "images/emma/laptop/laptop2.jpg"
+    ],
+    "description": "  AirTag is a supereasy way to keep track ofyour stuff. Attach one to your keys, slip another in your backpack. And just like that, they’re on your radar in the Find My app, where you can also track down your Apple devices and keep up with friends and family.",
+    "category": "",
+    "url": "single-product.html?id=8"
+  },
+  {
+    "id": 9,
+    "name": "Charging Station",
+    "price": "₦145,000.80",
+    "images": [
+      "images/emma/chargers/charging station.jpg",
+      "images/emma/laptop/laptop2.jpg"
+    ],
+    "description": "  3 in 1 Charging Station for iPhone, Wireless Charger for iPhone 17 16e 16 15 14 13 12 11 X Pro Max & Apple Watch - Wireless Charging Station for AirPods 4 3 Pro.",
+    "category": "chargers",
+    "url": "single-product.html?id=9"
+  },
+  {
+    "id": 10,
+    "name": "Jbl earpod",
+    "price": "₦46,500.00",
+    "images": [
+      "images/emma/headphone/jbl earpod.jpg",
+      "images/emma/laptop/laptop2.jpg"
+    ],
+    "description": "  Thanks to the next generation Bluetooth technology, the JBL Tune Buds earbuds stream audio with low power consumption at high quality. Plus, BT 5.3 allows you to stream synchronized audio independently to each earbud, so that you can use either or both earbuds. Or you can share your video or music content with a friend wearing headphones, as BT 5.3 lets you seamlessly stream audio to multiple listeners. (*) Available via OTA update at a later stage.",
+    "category": "Headphones",
+    "url": "single-product.html?id=10"
+  },
+  {
+    "id": 11,
+    "name": "Apple Homepod Mini",
+    "price": "₦32,000.50",
+    "images": [
+      "images/emma/wireless speakers/Apple Homepod Mini.jpg",
+      "images/emma/laptop/laptop2.jpg"
+    ],
+    "description": "  Jam-packed with innovation, HomePod mini delivers unexpectedly big sound for a speaker of its size. At just 3.3 inches tall, it takes up almost no space but fills the entire room with rich 360‑degree audio that sounds amazing from every angle. Add more than one HomePod mini for truly expansive sound.",
+    "category": "wireless speakers",
+    "url": "single-product.html?id=11"
+  },
+  {
+    "id": 12,
+    "name": "Theragun Massager",
+    "price": "₦32,000.50",
+    "images": [
+      "images/emma/home appliances/Theragun massager.jpg",
+      "images/emma/laptop/laptop2.jpg"
+    ],
+    "description": "  Theragun Prime Plus features a Heated Percussive Plus Attachment that combines heat and percussive therapy to help speed up recovery, optimize warm-ups and relieve pain faster than standard percussive massage alone.",
+    "category": "Home appliances",
+    "url": "single-product.html?id=12"
+  },
+  {
+    "id": 18,
+    "name": "Dell Inspiron 14",
+    "price": "₦350,000.00",
+    "images": [
+      "images/emma/laptops/Dell Inspiron 14 – Intel Core i5.jpeg",
+      "images/emma/laptop/laptop2.jpg"
+    ],
+    "description": "  Dell Inspiron 14 – Intel Core i5 – 8GB RAM – 256GB SSD – Windows 11.",
+    "category": "Laptops",
+    "url": "single-product.html?id=18"
+  },
+  {
+    "id": 19,
+    "name": "Macbook Pro 16",
+    "price": "₦1,200,000.00",
+    "images": [
+      "images/emma/laptops/Macbook Pro 16 with Apple M1 Max.jpeg",
+      "images/emma/laptop/laptop2.jpg"
+    ],
+    "description": "  Macbook Pro 16 with Apple M1 Max.",
+    "category": "Laptops",
+    "url": "single-product.html?id=19"
+  },
+  {
+    "id": 20,
+    "name": "Hp elitebook 6core",
+    "price": "₦746,000.00",
+    "images": [
+      "images/emma/laptops/Hp elitebook 6core 32gb 512gb SSd.jpg",
+      "images/emma/laptop/laptop2.jpg"
+    ],
+    "description": " Hp elitebook 6core 32gb 512gb SSd.",
+    "category": "Laptops",
+    "url": "single-product.html?id=20"
+  },
+  {
+    "id": 21,
+    "name": "Laptop Lenovo IdeaPad",
+    "price": "₦746,000.00",
+    "images": [
+      "images/emma/laptops/Laptop Lenovo IdeaPad l340.jpegSSD 256 GB, Vega 3, fdos, Black.jpeg",
+      "images/emma/laptop/laptop2.jpg"
+    ],
+    "description": " Laptop Lenovo IdeaPad l340-15api, 15_6 _, 3 3200u, 4 GB, SSD 256 GB, Vega 3, fdos, Black.",
+    "category": "Laptops",
+    "url": "single-product.html?id=21"
+  },
+  {
+    "id": 22,
+    "name": "Dell Xps 13",
+    "price": "₦546,000.00",
+    "images": [
+      "images/emma/laptops/Dell Xps 13.jpg",
+      "images/emma/laptop/laptop2.jpg"
+    ],
+    "description": " Laptop Lenovo IdeaPad l340-15api, 15_6 _, 3 3200u, 4 GB, SSD 256 GB, Vega 3, fdos, Black.",
+    "category": "Laptops",
+    "url": "single-product.html?id=22"
+  },
+  {
+    "id": 23,
+    "name": "Hp VICTUS Gamimg Laptop",
+    "price": "₦ 1,380,000",
+    "images": [
+      "images/emma/laptops/hp gaming laptop.jpg",
+      "images/emma/laptop/laptop2.jpg"
+    ],
+    "description": " Hp VICTUS 15 GAMING 13TH GEN INTEL CORE I5 16GB RAM 512GB SSD RTX 4050 (6GB).",
+    "category": "Laptops",
+    "url": "single-product.html?id=23"
+  },
+  {
+    "id": 24,
+    "name": "LG UT340H Series 55 inches",
+    "price": "695,500.00",
+    "images": [
+      "images/emma/home appliances/Lg 55 inches.jpeg",
+      "images/emma/laptop/laptop2.jpg"
+    ],
+    "description": " LG UT340H Series 55_ 4K Ultra HD Commercial Lite Hospitality LCD TV.",
+    "category": "Home appliances",
+    "url": "single-product.html?id=24"
+  },
+  {
+    "id": 25,
+    "name": "4K UHD Android curved TV",
+    "price": "805,000.80",
+    "images": [
+      "images/emma/home appliances/4k UHD tv.jpeg",
+      "images/emma/laptop/laptop2.jpg"
+    ],
+    "description": " 4K UHD Android TV 42  55 65 inch curved tv smart led tv with USB.",
+    "category": "Home appliances",
+    "url": "single-product.html?id=25"
+  },
+  {
+    "id": 25,
+    "name": "4K UHD Android curved TV",
+    "price": "805,000.80",
+    "images": [
+      "images/emma/home appliances/For 4K UHD Android TV 42  55 65 inch curved tv smart led tv with USB.jpeg",
+      "images/emma/laptop/laptop2.jpg"
+    ],
+    "description": " 4K UHD Android TV 42  55 65 inch curved tv smart led tv with USB.",
+    "category": "Home appliances",
+    "url": "single-product.html?id=25"
+  },
+  {
+    "id": 26,
+    "name": "beFree Wired Speaker System",
+    "price": "678,000.80",
+    "images": [
+      "images/emma/home appliances/Befree sound speaker.jpeg",
+      "images/emma/laptop/laptop2.jpg"
+    ],
+    "description": " beFree Sound 2_1ch Bluetooth Multimedia Wired Speaker System w_ LEDs.",
+    "category": "Home appliances",
+    "url": "single-product.html?id=26"
+  },
+  {
+    "id": 27,
+    "name": "Donner Bluetooth Stereo",
+    "price": "29,800.00",
+    "images": [
+      "images/emma/home appliances/donner.jpeg",
+      "images/emma/laptop/laptop2.jpg"
+    ],
+    "description": " Donner Bluetooth 5_0 Stereo Audio Amplifier Receiver, 4 Channel 440W Peak Power Home Theater Stereo Receiver with USB, SD, FM, 2 Mic in Echo, RCA, LED, Speaker Selector for Studio.",
+    "category": "Home appliances",
+    "url": "single-product.html?id=27"
+  },
+  {
+    "id": 28,
+    "name": "Yamaha Channel AV Receiver",
+    "price": "46,000.80",
+    "images": [
+      "mages/emma/home appliances/Yamaha RX-A2A AVENTAGE MusicCast - Macy.jpeg"
+    ],
+    "description": "Yamaha RX-A2A AVENTAGE 7_2-Channel AV Receiver with 8K HDMI and MusicCast.",
+    "category": "Home appliances",
+    "url": "single-product.html?id=28"
+  },
+  {
+    "id": 29,
+    "name": "Compaq Smart TV",
+    "price": "384,900.00",
+    "images": [
+      "images/emma/home appliances/Compaq smart tv.jpeg",
+      "images/emma/laptop/laptop2.jpg"
+    ],
+    "description": "Compaq Smart 43_ FHD TV (QLG43EFHF).",
+    "category": "Home appliances",
+    "url": "single-product.html?id=29"
+  },
+  {
+    "id": 30,
+    "name": "Surround Sound Bluetooth Speaker",
+    "price": "216,000.00",
+    "images": [
+      "images/emma/home appliances/surround sound  speaker.jpeg"
+    ],
+    "description": "5_1-Channel Surround Sound Bluetooth Speaker System in Black and Red.",
+    "category": "Home appliances",
+    "url": "single-product.html?id=30"
+  },
+  {
+    "id": 31,
+    "name": "Essager 25W USB C Charger",
+    "price": "₦3,100.80",
+    "images": [
+      "images/emma/chargers/Essanger charger.jpeg",
+      "images/emma/laptop/laptop2.jpg"
+    ],
+    "description": "Essager 25W USB C Charger Set PD Fast Charge Charger Quick Phone Charger for iPhone 16 15 Pro Max.",
+    "category": "Home appliances",
+    "url": "single-product.html?id=31"
+  },
+  {
+    "id": 32,
+    "name": "Predator Gas-Powered Generator",
+    "price": "246,790.00",
+    "images": [
+      "images/emma/home appliances/images/emma/home appliances/9000watt power Generator.jpeg",
+      "images/emma/laptop/laptop2.jpg"
+    ],
+    "description": "9000 Watt Gas-Powered Portable Generator with CO SECURE Technology.",
+    "category": "Home appliances",
+    "url": "single-product.html?id=32"
+  },
+  {
+    "id": 33,
+    "name": "Sony Mirrorless Camera",
+    "price": "57,670.80",
+    "images": [
+      "images/emma/home appliances/Sony a7 IV Mirrorless Camera.jpeg",
+      "images/emma/laptop/laptop2.jpg"
+    ],
+    "description": "Sony a7 IV Mirrorless Camera with 28-70mm Lens Bundle - 20745956.",
+    "category": "Home appliances",
+    "url": "single-product.html?id=33"
+  }
+
+]

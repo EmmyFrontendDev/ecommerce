@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "title": "Top 10 Must-Have Gadgets for 2025",
+    "author": "Admin",
+    "date": "30 Sept 2025",
+    "comments": 3,
+    "image": "images/blog-banner/gadgets.jpg",
+    "file": "blog/blog1.html",
+    "tags": ["Gadgets", "Tech", "2025"]
+  },
+  {
+    "id": 2,
+    "title": "How to Choose the Perfect Smartphone for your Needs",
+    "author": "Admin",
+    "date": "28 Sept 2025",
+    "comments": 5,
+    "image": "images/blog-banner/smartphone.jpg",
+    "file": "blog/blog2.html",
+    "tags": ["Smartphones", "Guide", "Tech"]
+  },
+  {
+    "id": 3,
+    "title": "5 Affordable Tech Accessories That Make Life Easier",
+    "author": "Admin",
+    "date": "28 Sept 2025",
+    "comments": 5,
+    "image": "images/blog-banner/smartphone.jpg",
+    "file": "blog/blog3.html",
+    "tags": ["Smartphones", "Guide", "Tech"]
+  },
+  {
+    "id": 4,
+    "title": "Why Investing in Quality Headphones is Worth It",
+    "author": "Admin",
+    "date": "28 Sept 2025",
+    "comments": 5,
+    "image": "images/blog-banner/smartphone.jpg",
+    "file": "blog/blog4.html",
+    "tags": ["Smartphones", "Guide", "Tech"]
+  }
+]
+  
+
+

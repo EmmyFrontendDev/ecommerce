@@ -1,0 +1,61 @@
+ .Shopping-cart-area .li-product-thumbnail img {
+            max-width: 80px;   /* limit width */
+            max-height: 80px;  /* limit height */
+            object-fit: contain; /* keep aspect ratio without distortion */
+            display: block;
+            margin: 0 auto; /* center the image in the cell */
+            /* Default (desktop) keeps table look */
+ }
+.Shopping-cart-area table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .Shopping-cart-area table,
+  .Shopping-cart-area thead,
+  .Shopping-cart-area tbody,
+  .Shopping-cart-area th,
+  .Shopping-cart-area td,
+  .Shopping-cart-area tr {
+    display: block;
+  }
+
+  .Shopping-cart-area tr {
+    margin-bottom: 15px;
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 8px;
+    background: #fff;
+  }
+
+  /* Hide table headers */
+  .Shopping-cart-area thead {
+    display: none;
+  }
+
+  /* Each cell as row detail */
+  .Shopping-cart-area td {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 5px;
+    border: none;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .Shopping-cart-area td:last-child {
+    border-bottom: none;
+  }
+
+  /* Image styling */
+  .Shopping-cart-area .li-product-thumbnail img {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: contain;
+  }
+}
+
+a:after{
+    display: none !important;
+}

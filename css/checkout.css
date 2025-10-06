@@ -1,0 +1,110 @@
+/* === Payment Method Styling === */
+.payment-method .card {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* Card headers */
+.payment-method .card-header {
+  background: #3f6efb; /* blue theme */
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.payment-method .card-header a {
+  color: #fff;
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Card body */
+.payment-method .card-body {
+  position: relative;
+  padding: 15px;
+}
+
+/* Radio buttons – small + right side */
+.payment-method input[type="radio"] {
+  transform: scale(0.8);
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%) scale(0.8);
+  cursor: pointer;
+}
+
+/* Place order button */
+.order-button-payment input[type="submit"] {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background: #3f6efb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.order-button-payment input[type="submit"]:hover {
+  background: #3355c4; /* darker blue on hover */
+}
+/* === Custom Modal Styles === */
+.custom-modal {
+  display: none; 
+  position: fixed;
+  z-index: 9999; 
+  left: 0; top: 0;
+  width: 100%; height: 100%; 
+  background: rgba(0,0,0,0.6); 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.custom-modal-content {
+  position: relative;
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 14px;
+  max-width: 420px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.25);
+  animation: fadeIn 0.3s ease;
+}
+
+.custom-modal-content p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.success { color: #28a745; }   /* Green */
+.error { color: #dc3545; }     /* Red */
+.warning { color: #ffc107; }   /* Yellow */
+.info { color: #17a2b8; }      /* Blue */
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
