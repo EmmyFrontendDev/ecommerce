@@ -5516,28 +5516,22 @@ span.required {
 a::after{
   display: none !important;
  }
- @media (max-width: 768px){
-   .single-product-wrap{
-	padding: 5px !important;
-   }
- }
-
-/* --- Mobile tweaks for product carousel (peek on the LEFT) --- */
+ /* --- Mobile tweaks for product carousel (peek on the RIGHT) --- */
 @media (max-width: 768px) {
-  /* Shift padding so peek shows on left side instead of right */
+  /* Shift padding so peek shows on RIGHT side */
   .product-active.owl-carousel {
     overflow: visible !important;
-    padding-left: 0 !important;
-    padding-right: 30px !important; /* creates visible peek on left */
+    padding-left: 30px !important; /* creates visible peek on right */
+    padding-right: 0 !important;
   }
 
   /* Align the stage properly */
   .product-active.owl-carousel .owl-stage {
-    padding-right: 10px; /* ensures spacing consistency */
+    padding-left: 10px; /* ensures spacing consistency */
   }
 
   .product-active.owl-carousel .owl-item {
-    margin-left: 10px; /* adds gap between products */
+    margin-right: 10px; /* adds gap between products */
   }
 
   /* Optional: shrink cards slightly for mobile */
@@ -5581,13 +5575,11 @@ a::after{
   .product-active:hover .owl-nav button.owl-next {
     opacity: 1;
   }
-}
 
-@media (max-width: 768px) {
   /* Lock the carousel height */
   .product-active.owl-carousel,
   .product-active.owl-carousel .owl-stage-outer {
-    height: 400px; /* 🔧 adjust this value as needed (try 260px–320px) */
+    height: 400px; /* adjust as needed */
   }
 
   /* Make sure the inner items fit neatly */
@@ -5599,8 +5591,8 @@ a::after{
   /* Keep product images contained within the fixed height */
   .product-active .single-product-wrap img {
     width: 100%;
-    height: 180px; /* adjust this to balance with titles & buttons */
-    object-fit: cover; /* or 'contain' if you want no cropping */
+    height: 180px;
+    object-fit: cover;
   }
 
   /* Optional: reduce extra padding below the cards */
@@ -5609,6 +5601,7 @@ a::after{
     padding-bottom: 8px;
   }
 }
+
 /* preloader */
 /* Fullscreen loader */
 #preloader {
@@ -5706,6 +5699,17 @@ body {
   body {
     padding-top: 0; /* no extra space since header isn’t fixed */
   }
+}
+@media screen and (max-width:768px){
+	.header-bottom{
+        position: sticky;
+		top: 0%;
+	}
+	header .header-middle-right{
+		position: sticky;
+		top: 0%;
+	}
+	
 }
 
 
