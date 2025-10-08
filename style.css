@@ -874,6 +874,7 @@ textarea:focus {
 	top: -75px;
 	left: auto !important;
 	right: -12px !important;
+	
 }
 .mobile-menu-area-4 .mobile-menu .mean-bar .meanmenu-reveal {
 	color: #ffffff;
@@ -1570,6 +1571,7 @@ textarea:focus {
 		display: block;
 		position: relative;
 		padding: 0 15px 0 55px;
+	    z-index: 10000 !important;
 }
 .item-icon::before {
 		content: "\f291";
