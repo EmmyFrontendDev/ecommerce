@@ -26,7 +26,7 @@
     ], 
    
     "description": "Powerful gaming laptop with RTX graphics, 16GB RAM, and SSD storage.",
-    "category": "Laptops",
+    "category": "phone",
     "url": "single-product.html?id=2"
 
     
@@ -101,7 +101,7 @@
       "images/emma/laptop/laptop2.jpg"
     ],
     "description": "  AirTag is a supereasy way to keep track ofyour stuff. Attach one to your keys, slip another in your backpack. And just like that, they’re on your radar in the Find My app, where you can also track down your Apple devices and keep up with friends and family.",
-    "category": "",
+    "category": "phone",
     "url": "single-product.html?id=8"
   },
   {
@@ -143,7 +143,7 @@
   {
     "id": 12,
     "name": "Theragun Massager",
-    "price": "₦32,000.50",
+    "price": "₦232,000.50",
     "images": [
       "images/emma/home appliances/Theragun massager.jpg",
       "images/emma/laptop/laptop2.jpg"
@@ -227,7 +227,7 @@
   {
     "id": 24,
     "name": "LG UT340H Series 55 inches",
-    "price": "695,500.00",
+    "price": "₦695,500.00",
     "images": [
       "images/emma/home appliances/Lg 55 inches.jpeg",
       "images/emma/laptop/laptop2.jpg"
@@ -239,7 +239,7 @@
   {
     "id": 25,
     "name": "4K UHD Android curved TV",
-    "price": "805,000.80",
+    "price": "₦805,000.80",
     "images": [
       "images/emma/home appliances/4k UHD tv.jpeg",
       "images/emma/laptop/laptop2.jpg"
@@ -251,7 +251,7 @@
   {
     "id": 25,
     "name": "4K UHD Android curved TV",
-    "price": "805,000.80",
+    "price": "₦805,000.80",
     "images": [
       "images/emma/home appliances/For 4K UHD Android TV 42  55 65 inch curved tv smart led tv with USB.jpeg",
       "images/emma/laptop/laptop2.jpg"
@@ -263,7 +263,7 @@
   {
     "id": 26,
     "name": "beFree Wired Speaker System",
-    "price": "678,000.80",
+    "price": "₦678,000.80",
     "images": [
       "images/emma/home appliances/Befree sound speaker.jpeg",
       "images/emma/laptop/laptop2.jpg"
@@ -275,7 +275,7 @@
   {
     "id": 27,
     "name": "Donner Bluetooth Stereo",
-    "price": "29,800.00",
+    "price": "₦29,800.00",
     "images": [
       "images/emma/home appliances/donner.jpeg",
       "images/emma/laptop/laptop2.jpg"
@@ -287,7 +287,7 @@
   {
     "id": 28,
     "name": "Yamaha Channel AV Receiver",
-    "price": "46,000.80",
+    "price": "₦46,000.80",
     "images": [
       "mages/emma/home appliances/Yamaha RX-A2A AVENTAGE MusicCast - Macy.jpeg"
     ],
@@ -298,7 +298,7 @@
   {
     "id": 29,
     "name": "Compaq Smart TV",
-    "price": "384,900.00",
+    "price": "₦384,900.00",
     "images": [
       "images/emma/home appliances/Compaq smart tv.jpeg",
       "images/emma/laptop/laptop2.jpg"
@@ -310,7 +310,7 @@
   {
     "id": 30,
     "name": "Surround Sound Bluetooth Speaker",
-    "price": "216,000.00",
+    "price": "₦216,000.00",
     "images": [
       "images/emma/home appliances/surround sound  speaker.jpeg"
     ],
@@ -327,15 +327,15 @@
       "images/emma/laptop/laptop2.jpg"
     ],
     "description": "Essager 25W USB C Charger Set PD Fast Charge Charger Quick Phone Charger for iPhone 16 15 Pro Max.",
-    "category": "Home appliances",
+    "category": "chargers",
     "url": "single-product.html?id=31"
   },
   {
     "id": 32,
     "name": "Predator Gas-Powered Generator",
-    "price": "246,790.00",
+    "price": "₦246,790.00",
     "images": [
-      "images/emma/home appliances/images/emma/home appliances/9000watt power Generator.jpeg",
+      "images/emma/home appliances/9000watt power Generator.jpeg",
       "images/emma/laptop/laptop2.jpg"
     ],
     "description": "9000 Watt Gas-Powered Portable Generator with CO SECURE Technology.",
@@ -345,14 +345,268 @@
   {
     "id": 33,
     "name": "Sony Mirrorless Camera",
-    "price": "57,670.80",
+    "price": "₦57,670.80",
     "images": [
       "images/emma/home appliances/Sony a7 IV Mirrorless Camera.jpeg",
       "images/emma/laptop/laptop2.jpg"
     ],
     "description": "Sony a7 IV Mirrorless Camera with 28-70mm Lens Bundle - 20745956.",
-    "category": "Home appliances",
+    "category": "Camera",
     "url": "single-product.html?id=33"
+  },
+  {
+    "id": 34,
+    "name": "Samsung s9 series",
+    "price": "₦246,700.80",
+    "images": [
+      "images/product/large-size/10.jpg",
+      "images/product/large-size/10.jpg"
+    ],
+    "description": "Sony a7 IV Mirrorless Camera with 28-70mm Lens Bundle - 20745956.",
+    "category": "phone",
+    "url": "single-product.html?id=34"
+  },
+  {
+    "id": 34,
+    "name": "Maeknon Charger",
+    "price": "₦7,000.00",
+    "images": [
+      "images/emma/chargers/25w charger.jpeg",
+      "images/emma/chargers/25w charger.jpeg"
+    ],
+    "description": "Sony a7 IV Mirrorless Camera with 28-70mm Lens Bundle - 20745956.",
+    "category": "chargers",
+    "url": "single-product.html?id=34"
+  },
+  {
+    "id": 34,
+    "name": "Samsung s9 series",
+    "price": "₦246,700.80",
+    "images": [
+      "images/product/large-size/10.jpg",
+      "images/product/large-size/10.jpg"
+    ],
+    "description": "Sony a7 IV Mirrorless Camera with 28-70mm Lens Bundle - 20745956.",
+    "category": "phone",
+    "url": "single-product.html?id=34"
+  },
+  {
+    "id": 35,
+    "name": "ZEALOT Portable Bluetooth Speaker",
+    "price": "₦75,000.80",
+    "images": [
+      "images/emma/wireless speakers/ZEALOT Portable Bluetooth Speakers.jpeg",
+      "images/product/large-size/10.jpg"
+    ],
+    "description": "ZEALOT Portable Bluetooth Speakers, Wireless Speaker, S32 Samll Outdoor Speaker, Waterproof IPX5, Stereo Pairing_Bass_USB_MIC_TF Card_AUX for Home Outdoor Travel, Gift for Men, Kids.",
+    "category": "wireless speakers",
+    "url": "single-product.html?id=35"
+  },
+  {
+    "id": 36,
+    "name": "Nintendo Wireless Controller",
+    "price": "₦56,000.80",
+    "images": [
+      "images/emma/ps5 controller/Pro Wireless ControllerGamepad NEW.jpg",
+      "images/product/large-size/10.jpg"
+    ],
+    "description": "ZEALOT Portable Bluetooth Speakers, Wireless Speaker, S32 Samll Outdoor Speaker, Waterproof IPX5, Stereo Pairing_Bass_USB_MIC_TF Card_AUX for Home Outdoor Travel, Gift for Men, Kids.",
+    "category": "ps5 controllers",
+    "url": "single-product.html?id=36"
+  },
+  {
+    "id": 37,
+    "name": "Apple Watch Series 7",
+    "price": "₦46,000.80",
+    "images": [
+      "images/emma/watch/Apple Watch Series 7 45mm  GPS MIDNIGHT BLACK.jpg",
+      "images/product/large-size/10.jpg"
+    ],
+    "description": "ZEALOT Portable Bluetooth Speakers, Wireless Speaker, S32 Samll Outdoor Speaker, Waterproof IPX5, Stereo Pairing_Bass_USB_MIC_TF Card_AUX for Home Outdoor Travel, Gift for Men, Kids.",
+    "category": "Watches",
+    "url": "single-product.html?id=37"
+  },
+  {
+    "id": 38,
+    "name": "Samsung Galaxy A53",
+    "price": "₦168,000.80",
+    "images": [
+      "images/emma/phone/Samsung Galxy cream.jpg",
+      "images/product/large-size/10.jpg"
+    ],
+    "description": "Samsung Galxy A53 cream.",
+    "category": "phone",
+    "url": "single-product.html?id=38"
+  },
+  {
+    "id": 39,
+    "name": "Duromax Electric Generator",
+    "price": "₦246,600.80",
+    "images": [
+      "images/emma/home appliances/Best-seller Generator.jpeg",
+      "images/product/large-size/10.jpg"
+    ],
+    "description": "BestsellerGas Powered Portable 12000 Watt-Electric Start-Home Back Up & RV Ready, 50 State Approved.",
+    "category": "Home appliances",
+    "url": "single-product.html?id=39"
+  },
+  {
+    "id": 40,
+    "name": "Apple ibook",
+    "price": "₦300,000.00",
+    "images": [
+      "images/emma/phone/Apple ibook.jpg",
+      "images/product/large-size/10.jpg"
+    ],
+    "description": "BestsellerGas Powered Portable 12000 Watt-Electric Start-Home Back Up & RV Ready, 50 State Approved.",
+    "category": "phone",
+    "url": "single-product.html?id=40"
+  },
+  {
+    "id": 41,
+    "name": "Zealot Speaker",
+    "price": "₦46,900.00",
+    "images": [
+      "images/emma/wireless speakers/Zealot Speaker.jpeg",
+      "images/product/large-size/10.jpg"
+    ],
+    "description": "ZEALOT-S49PRO Portable Bluetooth Speaker 20W IPX6 Waterproof Powerful Sound Box Bass Boost Dual.",
+    "category": "wireless speakers",
+    "url": "single-product.html?id=41"
+  },
+  {
+    "id": 42,
+    "name": "SONY Wireless Headphones",
+    "price": "₦570,000",
+    "images": [
+      "images/emma/headphone/SONY Wireless Headphones.jpg",
+      "images/product/large-size/10.jpg"
+    ],
+    "description": "BestsellerGas Powered Portable 12000 Watt-Electric Start-Home Back Up & RV Ready, 50 State Approved.",
+    "category": "wireless speakers",
+    "url": "single-product.html?id=42"
+  },
+  {
+    "id": 43,
+    "name": "Nintendo Switch",
+    "price": "₦90,000.00",
+    "images": [
+      "images/emma/ps5 controller/Joystick sem fio para Nintendo Switch.jpg",
+      "images/product/large-size/10.jpg"
+    ],
+    "description": "BestsellerGas Powered Portable 12000 Watt-Electric Start-Home Back Up & RV Ready, 50 State Approved.",
+    "category": "ps5 controllers",
+    "url": "single-product.html?id=43"
+  },
+  {
+    "id": 44,
+    "name": "wireless earpods",
+    "price": "₦35,000.00",
+    "images": [
+      "images/emma/wireless speakers/wireless earpods.jpeg",
+      "images/product/large-size/10.jpg"
+    ],
+    "description": "BestsellerGas Powered Portable 12000 Watt-Electric Start-Home Back Up & RV Ready, 50 State Approved.",
+    "category": "wireless speakers",
+    "url": "single-product.html?id=44"
+  },
+  {
+    "id": 45,
+    "name": "JBL Boombox 3",
+    "price": "₦143,000.00",
+    "images": [
+      "images/emma/wireless speakers/Jbl Boombox, wireless speaker.jpg",
+      "images/product/large-size/10.jpg"
+    ],
+    "description": "JBL Boombox 3 Wireless Bluetooth Speaker, Portable Waterproof Speaker with Indoor and Outdoor Modes, 24 Hours Playtime, in Black.",
+    "category": "wireless speakers",
+    "url": "single-product.html?id=45"
+  },
+  {
+    "id": 46,
+    "name": "Pre-Owned Apple iPhone 12",
+    "price": "₦580,000.00",
+    "images": [
+      "images/emma/phone/iphone 12 64gb.jpg",
+      "images/product/large-size/10.jpg"
+    ],
+    "description": "Pre-Owned Apple iPhone 12 64GB GSM/CDMA Fully Unlocked - Green - 22989142 | HSN.",
+    "category": "phone",
+    "url": "single-product.html?id=46"
+  },
+  {
+    "id": 47,
+    "name": "Apple Ipad 11",
+    "price": "₦380,000.00",
+    "images": [
+      "images/emma/phone/Apple Ipad 11 Ai6, 256GB.jpg",
+      "images/product/large-size/10.jpg"
+    ],
+    "description": "Pre-Owned Apple iPhone 12 64GB GSM/CDMA Fully Unlocked - Green - 22989142 | HSN.",
+    "category": "phone",
+    "url": "single-product.html?id=47"
+  },
+  {
+    "id": 48,
+    "name": "iPhone 17 Pro",
+    "price": "₦2,580,000.00",
+    "images": [
+      "images/emma/phone/iphone 17 orange.jpg",
+      "images/product/large-size/10.jpg"
+    ],
+    "description": "iPhone 17 Pro. The most powerful iPhone ever. Brilliant 6.3-inch display, aluminum unibody design, A19 Pro chip, all 48MP rear cameras, and breakthrough battery life. | Apple | iPhone 17 Pro 512GB | (AT&T) | Cosmic Orange | Best Buy",
+
+    "category": "phone",
+    "url": "single-product.html?id=48"
+  },
+  {
+    "id": 49,
+    "name": "Hp Victus 16gb RAM",
+    "price": "₦1,580,000.00",
+    "images": [
+      "images/emma/laptops/hp gaming laptop.jpg",
+      "images/product/large-size/10.jpg"
+    ],
+    "description": "iPhone 17 Pro. The most powerful iPhone ever. Brilliant 6.3-inch display, aluminum unibody design, A19 Pro chip, all 48MP rear cameras, and breakthrough battery life. | Apple | iPhone 17 Pro 512GB | (AT&T) | Cosmic Orange | Best Buy",
+
+    "category": "Laptops",
+    "url": "single-product.html?id=49"
+  },
+  {
+    "id": 50,
+    "name": "Pre owned Iphone 14",
+    "price": "₦880,000.00",
+    "images": [
+      "images/emma/phone/Pre owned Iphone 14 , 128GB.jpg",
+      "images/product/large-size/10.jpg"
+    ],
+    "description": "Pre owned Iphone 14 128gb 4gb Ram.",
+    "category": "phone",
+    "url": "single-product.html?id=50"
+  },
+  {
+    "id": 51,
+    "name": "ZEALOT-S49PRO Portable Bluetooth Speaker",
+    "price": "₦80,000.00",
+    "images": [
+      "images/emma/wireless speakers/Zealot wireless bluetooth speaker black.jpg",
+      "images/product/large-size/10.jpg"
+    ],
+    "description": "Pre owned Iphone 14 128gb 4gb Ram.",
+    "category": "wireless speakers",
+    "url": "single-product.html?id=52"
+  },
+  {
+    "id": 50,
+    "name": "Pre owned Iphone 14",
+    "price": "₦880,000.00",
+    "images": [
+      "images/emma/phone/Pre owned Iphone 14 , 128GB.jpg",
+      "images/product/large-size/10.jpg"
+    ],
+    "description": "Pre owned Iphone 14 128gb 4gb Ram.",
+    "category": "phone",
+    "url": "single-product.html?id=50"
   }
 
 ]

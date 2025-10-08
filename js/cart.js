@@ -240,6 +240,50 @@ function refreshCart() {
 
 
 
+// single cart
+document.addEventListener("DOMContentLoaded", function () {
+  const addToCartForm = document.querySelector(".single-add-to-cart form");
+  if (!addToCartForm) return;
+
+  addToCartForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    // ✅ Extract product data from the page
+    const nameEl = document.querySelector(".product-info h2");
+    const priceEl = document.querySelector(".new-price, .new-price-2");
+    const imageEl = document.querySelector(".product-details-images .lg-image img");
+    const qtyInput = document.querySelector(".cart-plus-minus-box");
+
+    const name = nameEl ? nameEl.innerText.trim() : "Unnamed Product";
+    const price = priceEl ? priceEl.innerText.trim() : "₦0";
+    const image = imageEl ? imageEl.src : "";
+    const quantity = qtyInput ? parseInt(qtyInput.value) || 1 : 1;
+
+    // ✅ Check if product already exists
+    const existing = cart.find(item => item.name === name);
+    if (existing) {
+      existing.quantity += quantity;
+    } else {
+      cart.push({ name, price, image, quantity });
+    }
+
+    // ✅ Save and update everything
+    saveCart();              // store in localStorage
+    updateHeaderCartTrigger(); // update total + count in top icon
+    updateMiniCart();          // rebuild minicart dropdown
+    updateFullCart();          // if cart page is open
+
+    // ✅ Show modal confirmation
+    const msg = document.getElementById("cartSuccessMessage");
+    if (msg) msg.textContent = `${name} has been added to your cart!`;
+    $('#cartSuccessModal').modal('show');
+  });
+});
+
+
+
+
+
 
 
 

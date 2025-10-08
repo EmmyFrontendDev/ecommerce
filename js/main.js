@@ -549,3 +549,33 @@ $('.product-active').owlCarousel({
     1024: { items: 3 }
   }
 });
+// prelaoder
+  window.addEventListener("load", () => {
+    const loader = document.getElementById("preloader");
+    setTimeout(() => {
+      loader.classList.add("hidden");
+    }, 2500); // Fade out after 1.5 seconds
+  });
+
+// header-sticky
+  let lastScrollY = 0;
+  const header = document.getElementById("main-header");
+
+  window.addEventListener("scroll", () => {
+    const currentScroll = window.scrollY;
+
+    if (currentScroll > lastScrollY && currentScroll > 150) {
+      header.classList.add("hide");
+    } else {
+      header.classList.remove("hide");
+
+      if (currentScroll > 50) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+
+    lastScrollY = currentScroll;
+  });
+

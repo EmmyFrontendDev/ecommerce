@@ -77,3 +77,104 @@ $(".slider-thumbs-1").slick({
   })
   .catch(err => console.error("Error loading product:", err));
 
+
+
+
+
+  // -------------------------------
+// ✅ Load Single Product and Related Products
+// -------------------------------
+
+// 1️⃣ Get product ID from URL
+const params = new URLSearchParams(window.location.search);
+const productId = parseInt(params.get("id")); // or string if your ids are strings
+
+// 2️⃣ Fetch products.json
+fetch("json/products.json")
+  .then(res => res.json())
+  .then(products => {
+    // 3️⃣ Find the current product
+    const product = products.find(p => p.id === productId);
+    if (!product) {
+      console.error("Product not found for ID:", productId);
+      return;
+    }
+
+    console.log("Current product:", product);
+
+    // 4️⃣ Load Related Products (same category)
+    const relatedProducts = products
+      .filter(p => p.category === product.category && p.id !== product.id)
+      .slice(0, 15);
+
+    console.log("Related products:", relatedProducts);
+
+    // 5️⃣ Render related products into carousel
+    const relatedCarousel = document.querySelector("#related-products-carousel");
+
+    if (relatedCarousel) {
+      if (relatedProducts.length === 0) {
+        relatedCarousel.innerHTML = "<p>No other products in this category.</p>";
+      } else {
+        relatedCarousel.innerHTML = relatedProducts
+          .map(p => `
+            <div class="col-lg-12">
+              <div class="single-product-wrap">
+                <div class="product-image">
+                  <a href="single-product.html?id=${p.id}">
+                    <img src="${p.images[0]}" alt="${p.name}">
+                  </a>
+                  <span class="sticker">New</span>
+                </div>
+                <div class="product_desc">
+                  <div class="product_desc_info">
+                    <h4><a class="product_name" href="single-product.html?id=${p.id}">${p.name}</a></h4>
+                    <div class="price-box">
+                      <span class="new-price">${p.price}</span>
+                    </div>
+                  </div>
+                  <div class="add-actions">
+                    <ul class="add-actions-link">
+                      <li class="add-cart active"><a href="#">Add to cart</a></li>
+                      <li>
+                        <a href="#" title="quick view" class="quick-view-btn" 
+                           data-toggle="modal" data-target="#exampleModalCenter"
+                           data-name="${p.name}" 
+                           data-price="${p.price}"
+                           data-images='${JSON.stringify(p.images)}'>
+                          <i class="fa fa-eye"></i>
+                        </a>
+                      </li>
+                      <li><a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          `)
+          .join("");
+
+        // ✅ Reinitialize Owl Carousel
+        if ($ && $.fn.owlCarousel) {
+          $(relatedCarousel).owlCarousel("destroy"); // remove old one if any
+          $(relatedCarousel).owlCarousel({
+            loop: true,
+            nav: true,
+            dots: false,
+            autoplay: true,
+            smartSpeed: 1000,
+            margin: 30,
+            responsive: {
+              0: { items: 1 },
+              480: { items: 2 },
+              768: { items: 3 },
+              992: { items: 4 },
+              1200: { items: 5 }
+            }
+          });
+        }
+      }
+    }
+  })
+  .catch(err => console.error("Error loading products:", err));
+

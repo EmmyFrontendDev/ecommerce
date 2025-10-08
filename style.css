@@ -5482,7 +5482,7 @@ span.required {
 
  }
  .hb-menu nav > ul > li.shopp > a::after{
-	display: none !important;
+	
 
  }
  .hb-menu nav > ul > li.megamenu-static-holder > a::after{
@@ -5516,6 +5516,12 @@ span.required {
 a::after{
   display: none !important;
  }
+ @media (max-width: 768px){
+   .single-product-wrap{
+	padding: 5px !important;
+   }
+ }
+
 /* --- Mobile tweaks for product carousel (peek on the LEFT) --- */
 @media (max-width: 768px) {
   /* Shift padding so peek shows on left side instead of right */
@@ -5603,7 +5609,104 @@ a::after{
     padding-bottom: 8px;
   }
 }
+/* preloader */
+/* Fullscreen loader */
+#preloader {
+  position: fixed;
+  inset: 0;
+  background-color: #ffffff; /* Background while loading */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  transition: opacity 1s ease, visibility 1s ease; /* Smooth fade */
+}
 
+/* Loader text + icon */
+.loader-content {
+  text-align: center;
+  animation: bounceFade 1.6s ease-in-out infinite;
+}
+
+.loader-content i {
+  font-size: 3.5rem;
+  color: royalblue;
+}
+
+.loader-content h2 {
+  color: royalblue;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+
+/* Simple pulsing animation */
+@keyframes bounceFade {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.9);
+    opacity: 0.7;
+  }
+}
+
+/* Hidden state after page load */
+#preloader.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+/* === HEADER WRAPPER === */
+#main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  transition: top 0.4s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+/* When page scrolls down */
+#main-header.sticky {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+}
+
+/* When header hides */
+#main-header.hide {
+  top: -180px; /* adjust depending on total header height */
+}
+
+/* Ensure body content starts below fixed header */
+body {
+  padding-top: 107px; /* same value as your header total height */
+}
+
+/* === Disable sticky/hide behavior on mobile === */
+@media (max-width: 768px) {
+  #main-header {
+    position: static; /* not fixed */
+    box-shadow: none;
+    background-color: transparent;
+    backdrop-filter: none;
+  }
+
+  #main-header.hide,
+  #main-header.sticky {
+    top: 0; /* prevent hiding movement */
+  }
+
+  body {
+    padding-top: 0; /* no extra space since header isn’t fixed */
+  }
+}
 
 
 
